@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Happy Raksha Bandhan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+
+  <div class="stage">
+
+    <div class="bg"></div>
+
+    <img
+      class="mandala"
+      src="assets/mandala-cut.png"
+      alt=""
+    />
+
+    <div class="pair">
+
+      <img
+        class="sister"
+        src="assets/sister-cut.png"
+        alt="Sister holding a rakhi"
+      />
+
+      <img
+        class="brother"
+        src="assets/brother-flat.jpg?v=flip"
+        alt="Brother receiving the rakhi"
+      />
+
+    </div>
+
+    <img
+      class="diya left"
+      src="assets/diyas-cut.png"
+      alt=""
+    />
+
+    <img
+      class="diya right"
+      src="assets/diyas-cut.png"
+      alt=""
+    />
+
+    <div class="titles">
+
+      <div class="ornament">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+
+      <p class="hindi">
+        रक्षा बंधन की शुभकामनाएँ
+      </p>
+
+      <h1>
+        Happy Raksha Bandhan
+      </h1>
+
+    </div>
+
+    <p class="wish">
+      A thread of love, a promise of protection
+
+      <span class="subwish">
+        May this sacred bond last forever
+      </span>
+    </p>
+
+    <canvas id="fx"></canvas>
+
+    <div class="vignette"></div>
+
+    <div class="controls">
+
+      <button type="button" id="replay">
+        Replay
+      </button>
+
+      <button type="button" id="mute">
+        Sound on
+      </button>
+
+    </div>
+
+    <div class="intro" id="intro">
+
+      <img
+        class="intro-mandala"
+        src="assets/mandala-cut.png"
+        alt=""
+      />
+
+      <p>रक्षा बंधन</p>
+
+      <h2>
+        Happy Raksha Bandhan
+      </h2>
+
+      <button
+        type="button"
+        class="begin"
+        id="begin"
+      >
+        Begin the ritual
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
